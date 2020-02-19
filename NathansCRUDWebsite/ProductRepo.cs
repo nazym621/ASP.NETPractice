@@ -29,7 +29,7 @@ namespace NathansCRUDWebsite
                     row.Price = reader.GetDouble("Price");
                     row.CategoryID = reader.GetInt32("CategoryID");
                     row.OnSale = reader.GetInt32("OnSale");
-                    row.StockLevel = reader.GetInt32("StockLevel");
+                    //row.StockLevel = reader.GetInt32("StockLevel");
                     products.Add(row);
                 }
                 return products;
